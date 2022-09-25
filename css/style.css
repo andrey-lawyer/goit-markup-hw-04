@@ -1,4 +1,3 @@
-
 :root {
   --primary-background-color: #f5f5f5;
   --primary-text-color: #757575;
@@ -42,14 +41,15 @@ h5 {
 li {
   margin: 0;
 }
-a {text-decoration: 0;}
+a {
+  text-decoration: 0;
+}
 
 /* котнейрер */
 .container {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-
 }
 .section-benefits h2 {
   display: none;
@@ -104,17 +104,16 @@ a {text-decoration: 0;}
 /* Цвет и шрифт cсылок телефон и почта */
 .contacts a {
   color: var(--primary-text-color);
- display: flex;
+  display: flex;
   font-style: 400;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none; 
+  text-decoration: none;
   justify-content: center;
   text-align: center;
 }
-.link-phone{
- 
+.link-phone {
   margin-left: 30px;
 }
 /* сброс точек со списков */
@@ -142,17 +141,16 @@ a {text-decoration: 0;}
   margin: 0;
   padding: 0;
 }
-.icon-benefits{
+.icon-benefits {
   height: 70px;
   width: 70px;
   margin-top: 25px;
   margin-bottom: 25px;
-  
 }
-.block-icon-benefits{
+.block-icon-benefits {
   height: 120px;
   width: 270px;
-  background-color:  #F5F4FA;
+  background-color: #f5f4fa;
   margin-bottom: 30px;
   /* margin: 0 auto; */
   text-align: center;
@@ -193,7 +191,7 @@ a {text-decoration: 0;}
   display: flex;
 }
 
-.section-сlients .subtitle{
+.section-сlients .subtitle {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -202,48 +200,47 @@ a {text-decoration: 0;}
   text-align: center;
 }
 
-.list-сlients{
+.list-сlients {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
   justify-content: center;
-  gap:30px; 
+  gap: 30px;
 }
 /* .element-сlients{
 }  */
-.list-сlients a{
-  
+.list-сlients a {
   display: block;
   width: 170px;
   height: 92px;
-  border: 1px solid #AFB1B8; 
-  color:#AFB1B8;
+  border: 1px solid #afb1b8;
+  color: #afb1b8;
 }
 
-.list-сlients a:hover{
-  border: 1px solid #2196F3;
-  color: #2196F3;
+.list-сlients a:hover {
+  border: 1px solid #2196f3;
+  color: #2196f3;
 }
 
 .icon-clients {
   display: block;
   width: 106px;
-  height: 60px; 
+  height: 60px;
   /* margin: auto; */
- margin-left: 32px;
- margin-right: 32px;
- margin-top:16px;
- margin-bottom:16px ;
- fill: currentColor;
- 
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  fill: currentColor;
 }
 /* .icon-clients:hover {
   fill: #2196F3;
 }  */
-.card:hover{
+.card:hover {
   display: block;
-  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 .items-address {
   list-style: none;
@@ -330,14 +327,14 @@ a {text-decoration: 0;}
 .phone-block{
   display: flex;
 } */
-.icon-mail{
+.icon-mail {
   width: 16px;
   height: 12px;
   fill: currentColor;
   margin: 0 auto;
   margin-right: 10px;
 }
-.icon-phone{
+.icon-phone {
   width: 10px;
   height: 16px;
   fill: currentColor;
@@ -347,8 +344,12 @@ a {text-decoration: 0;}
 /* Цвет фона и текста секции  Герой */
 .section-heroy {
   /* ------------ */
-  background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), 
-  url(../images/hero.jpg);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero.jpg);
   margin: 0 auto;
   height: 600px;
   max-width: 1600px;
@@ -481,8 +482,8 @@ a {text-decoration: 0;}
   font-size: 16px;
   line-height: 1.19;
 }
-.employees-list-icons{
-  gap:10px; 
+.employees-list-icons {
+  gap: 10px;
   list-style: none;
   display: flex;
   margin: 0;
@@ -504,33 +505,30 @@ a {text-decoration: 0;}
   border: 1px solid #2196F3;
   color: #2196F3;
 } */
-.icon-employees{
-  
-  height:20px;
+.icon-employees {
+  height: 20px;
   width: 20px;
-  display: block; 
+  display: block;
   /* margin-top:11.9px; */
- /* margin-bottom:12px ;   */
- fill: currentColor;
+  /* margin-bottom:12px ;   */
+  fill: currentColor;
 }
-.employees-list-icons a{
-  color:#AFB1B8;
- padding: 12px; 
+.employees-list-icons a {
+  color: #afb1b8;
+  padding: 12px;
   text-align: center;
   display: block;
   height: 44px;
   width: 44px;
 }
-.employees-list-icons a:hover{
+.employees-list-icons a:hover {
   border-radius: 50%;
-  background-color: #2196F3;
-  color:#FFFFFF ;
+  background-color: #2196f3;
+  color: #ffffff;
 }
 
-
 /*  - кнопки, секция работы */
-.button-work { 
-  
+.button-work {
   letter-spacing: 0.03em;
   border: none;
   display: inline-block;
@@ -550,8 +548,9 @@ a {text-decoration: 0;}
 .button-work:hover,
 .button-work:focus,
 .button-work:active {
-  box-shadow:  0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 3px 1px rgba(0, 0, 0, 0.1);
-  
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 3px 1px rgba(0, 0, 0, 0.1);
+
   background-color: var(--accent-color);
   color: var(--secondary-text-background-color);
 }
@@ -588,53 +587,52 @@ a {text-decoration: 0;}
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer-flex{
+.footer-flex {
   display: flex;
 }
 .footer-block2 {
- margin-top: 15px;
- margin-bottom: 100px;
- margin-left: 70px;
+  margin-top: 15px;
+  margin-bottom: 100px;
+  margin-left: 70px;
 }
-.footer-block2 .subtitle{
-font-size: 16px;
-line-height: 1.14;
-color: #FFFFFF;
-text-transform: uppercase;
-margin-bottom: 20px;
-/* Line height: 16px;
+.footer-block2 .subtitle {
+  font-size: 16px;
+  line-height: 1.14;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  /* Line height: 16px;
 Vertical align: Top;
 Letter spacing: 3%; */
 }
-.footer-list-icons{
-  gap:10px; 
+.footer-list-icons {
+  gap: 10px;
   list-style: none;
   display: flex;
   margin: 0;
   padding: 0;
   justify-content: center;
 }
-.icon-footer{
-  
-  height:20px;
+.icon-footer {
+  height: 20px;
   width: 20px;
-  display: block; 
+  display: block;
   /* margin-top:11.9px; */
- /* margin-bottom:12px ;   */
- fill: currentColor;
+  /* margin-bottom:12px ;   */
+  fill: currentColor;
 }
-.footer-list-icons a{
+.footer-list-icons a {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  color:#FFFFFF;
- padding: 12px; 
+  color: #ffffff;
+  padding: 12px;
   text-align: center;
   display: block;
   height: 44px;
   width: 44px;
 }
-.footer-list-icons a:hover{ 
-  background-color: #2196F3;
+.footer-list-icons a:hover {
+  background-color: #2196f3;
 }
 
 .phone {
