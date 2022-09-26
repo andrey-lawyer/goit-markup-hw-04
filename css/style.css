@@ -110,8 +110,9 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  justify-content: center;
+ /* down change */
   text-align: center;
+  align-items: center;
 }
 .link-phone {
   margin-left: 30px;
@@ -152,9 +153,14 @@ a {
   width: 270px;
   background-color: #f5f4fa;
   margin-bottom: 30px;
-  /* margin: 0 auto; */
-  text-align: center;
-}
+  
+ 
+  /* change down */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
 .items-images {
   list-style: none;
   display: flex;
@@ -211,11 +217,16 @@ a {
 /* .element-сlients{
 }  */
 .list-сlients a {
-  display: block;
+ 
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
   color: #afb1b8;
+   /* down change */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ 
 }
 
 .list-сlients a:hover {
@@ -224,16 +235,16 @@ a {
 }
 
 .icon-clients {
-  display: block;
+  
   width: 106px;
   height: 60px;
   /* margin: auto; */
-  margin-left: 32px;
+  /* margin-left: 32px;
   margin-right: 32px;
   margin-top: 16px;
-  margin-bottom: 16px;
+  margin-bottom: 16px; */
   fill: currentColor;
-}
+ }
 /* .icon-clients:hover {
   fill: #2196F3;
 }  */
@@ -328,6 +339,8 @@ a {
   display: flex;
 } */
 .icon-mail {
+  
+ 
   width: 16px;
   height: 12px;
   fill: currentColor;
@@ -489,6 +502,8 @@ a {
   margin: 0;
   padding: 0;
   justify-content: center;
+  /* down change */
+
 }
 
 /* .list-сlients a{
@@ -515,11 +530,13 @@ a {
 }
 .employees-list-icons a {
   color: #afb1b8;
-  padding: 12px;
-  text-align: center;
-  display: block;
+ 
   height: 44px;
   width: 44px;
+  /* down change */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .employees-list-icons a:hover {
   border-radius: 50%;
@@ -589,14 +606,19 @@ a {
 }
 .footer-flex {
   display: flex;
+  /* down change */
+  align-items: baseline;
 }
 .footer-block2 {
-  margin-top: 15px;
-  margin-bottom: 100px;
+  /* margin-top: 15px;
+  margin-bottom: 100px; */
   margin-left: 70px;
+  /*down change */
+
 }
 .footer-block2 .subtitle {
-  font-size: 16px;
+  display: block;
+  font-size: 14px;
   line-height: 1.14;
   color: #ffffff;
   text-transform: uppercase;
@@ -645,7 +667,7 @@ Letter spacing: 3%; */
 /* цвет и шрифт тел и эл. почты в футере */
 .link-mailphone {
   color: var(--phone-mail-color);
-
+  
   font-style: normal;
   /* font-weight: 400; */
   line-height: 1.71;
